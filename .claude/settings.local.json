@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --version:*)",
+      "Bash(npm --version:*)",
+      "Bash(rustc:*)",
+      "Bash(cargo:*)",
+      "Bash(npm install)",
+      "Bash(npm install:*)",
+      "Bash(powershell -Command \"[Convert]::FromBase64String\\(''iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABNElEQVR4nO2XMU7DQBBF3yJRcAQKOAEVJ6DgBBScgIITUHACCk5AwQkouAEFR6BIFHE0WLJI1uuZXSexhPKlKWbm/5nZtQP/shLsALfAHXAAHFfZ30wFcAbcA8/APrBaU3wEnALPwEEN8Q64Bl6AHWC9hvgo8AN8BRaAjQL7InAAfFfJl4HPCtgqsC8DcxXyeI7TL/AxsMjz+2fBGbBUJo8CG2XyaNJZMFf1d8EZcAqEEhQcT3A+B1aADeCgQB5N+gRYq5InE7FcJo+mvgN2yuTxCrgqk8cT3wIrFfJk4jNguUweT3wGLNTI44kvAusV8mji28BiiTyeeAasV8mjie8ACyXyeOIp8FKRPJn4MbBQJo8n/gJMVciTie8CyxXyZOKvwEqRPJ54CrxVyKPJv0ufDPn+JWG0AAAAAElFTkSuQmCC''\\) | Set-Content -Path icon.png -Encoding Byte\")",
+      "Bash(copy:*)",
+      "Bash(copy icon.png \"128x128@2x.png\")",
+      "Bash(npm run tauri:*)",
+      "Bash(curl:*)",
+      "Bash(npx vite --version)",
+      "Bash(npx vue-tsc:*)",
+      "Bash(npx vite build)",
+      "Bash(powershell -Command:*)",
+      "Bash(start \"\" \"E:\\\\myPrograms\\\\新建文件夹\\\\src-tauri\\\\target\\\\release\\\\datecopy.exe\")",
+      "Bash(tasklist:*)",
+      "Bash(reg query \"HKLM\\\\SOFTWARE\\\\WOW6432Node\\\\Microsoft\\\\EdgeUpdate\\\\Clients\\\\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}\")",
+      "Bash(reg query \"HKLM\\\\SOFTWARE\\\\Microsoft\\\\EdgeUpdate\\\\Clients\\\\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}\")",
+      "Bash(taskkill:*)",
+      "Bash(./datecopy.exe:*)",
+      "Bash(reg query \"HKCU\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\")",
+      "Bash(del \"E:\\\\myPrograms\\\\新建文件夹\\\\src\\\\components\\\\CopyButton.vue\")",
+      "Bash(timeout /t 15 /nobreak)",
+      "Bash(ping:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git reset:*)",
+      "Bash(dir:*)"
+    ]
+  }
+}
