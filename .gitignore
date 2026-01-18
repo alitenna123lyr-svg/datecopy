@@ -21,3 +21,7 @@ NUL
 # Tauri
 src-tauri/WixTools/
 src-tauri/NSIS/
+
+# Build artifacts in root (use GitHub Releases for distribution)
+*.exe
+*.msi
